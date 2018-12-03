@@ -1,0 +1,43 @@
+.panda {
+    animation: pandaMove 5s infinite reverse ease-in-out forwards;
+}
+
+.pandaFace {
+    animation: pandaFaceMove 5s infinite ease-in-out forwards;
+}
+
+@keyframes pandaMove {
+    from {
+        transform: translate(-250px) scale(5);
+    }
+
+    40% {
+        transform: translate(500px) scale(8);
+    }
+
+    60% {
+        transform: translate(500px) scale(8);
+    }
+
+    to {
+        transform: translate(1500px) scale(2);
+    }
+}
+
+@keyframes pandaFaceMove {
+    40% {
+        transform: scale(1) rotateX(0);
+    }
+
+    50% {
+        transform: scale(1.05) rotateX(5deg);
+    }
+
+    60% {
+        transform: scale(1) rotateX(0);
+    }
+}
+
+svg {
+    border: 2px solid red;
+}

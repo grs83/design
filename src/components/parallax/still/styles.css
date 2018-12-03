@@ -1,0 +1,10 @@
+.parallax-still {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.city {
+    background-image: url('city.jpg');
+}

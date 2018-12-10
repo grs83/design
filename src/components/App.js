@@ -12,6 +12,7 @@ import BarGraph from './graphs/bar';
 import RadialGraph from './graphs/radial';
 import Grid from './grid';
 import Panda from './panda';
+import Cube from './cube';
 
 // Style
 import './App.css';
@@ -50,6 +51,8 @@ class App extends Component {
         <SubSection />
 
         <Grid />
+
+        <Cube />
       </div>
     );
   }
